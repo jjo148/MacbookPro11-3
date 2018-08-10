@@ -1,0 +1,8 @@
+[Unit]
+Description=Disable wakeups from XHC1
+
+[Service]
+ExecStart=/usr/bin/bash -c 'echo "XHC1" > /proc/acpi/wakeup'
+
+[Install]
+WantedBy=multi-user.target
