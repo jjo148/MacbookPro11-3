@@ -37,3 +37,8 @@ Disable ACPI *wakeup* event from *USB 3.0 Hi-Speed/SuperSpeed Bus*:
 ```
 $ echo XHC1 > /proc/acpi/wakeup
 ```
+
+#
+## Display backlight
+
+Install package **acpilight-git** from AUR
